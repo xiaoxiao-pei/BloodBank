@@ -1,0 +1,81 @@
+.gradient-custom-2 {
+
+    background: #f4fffd;
+
+}
+
+.gradient-custom-3 {
+    background: linear-gradient(to right, #f36b74, #f371ae, #f07bbb, #c58ff1, #7d87f1);
+}
+
+body {
+    background-color: #f2f3fa;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
+}
+
+/* --- */
+.gradient-custom-5 {
+
+    background: #f4fffd;
+
+}
+
+.gradient-custom-4 {
+
+    background: #f4fffd;
+
+}
+
+.card {
+    background-image: url(images/pixelHeartGradientLowAlpha.png);
+    background-size: 150%;
+    background-repeat: repeat-y;
+    background-position-x: 57%;
+    background-position-y: 5%;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.welcomeTitle {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 175%;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.gradient-custom-5 {
+
+    background: #f4fffd;
+
+
+}
+
+.gradient-custom-4 {
+
+    background: rgba(125, 135, 241, .3)
+}
+
+/* for donor registration page */
+.bodyDonor {
+    background: rgba(125, 135, 241, .3)
+}
